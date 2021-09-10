@@ -15,7 +15,7 @@ section .title {
 }
 
 section .container {
-  padding: 15px 150px;
+  padding: 15px;
   /* border-radius: 10px;
   -moz-box-shadow:    0px 0px 4px 2px #ccc;
   -webkit-box-shadow: 0px 0px 4px 2px #ccc;
@@ -34,12 +34,12 @@ h1.title {
 
 .navbar {
   /* position: absolute; */
-  padding: 10px 0px !important;
+  padding: 6px 0px !important;
   top: 0;
   z-index: 99;
   width: 100%;
   color: #eaeaeb !important;
-  background-color: #333646 !important;
+  background-color: #252734 !important;
   -moz-box-shadow: 0px 0.5px 2px #000;
   -webkit-box-shadow: 0px 0.5px 2px #000;
   box-shadow-bottom: 2px #000;
@@ -51,14 +51,14 @@ h1.title {
 }
 
 nav .active {
-  color: #fff !important;
+  color: #eaeaeb !important;
 }
 
 nav .active::after {
   content: "";
   display: block;
   width: 50%;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #eaeaeb;
   margin: ;
   padding-bottom: 5px;
   margin-bottom: -8px;
@@ -74,19 +74,19 @@ nav .navbar-brand {
 } */
 
 #about .photo {
-  width: 100%;
+  width: 180px;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 0 0px 3px 2px #fff;
+  box-shadow: 0 0px 3px 2px #eaeaeb;
 }
 
 #about .download {
   padding: 10px;
-  background-color: #fff;
+  background-color: #eaeaeb;
   width: 160px;
   font-weight: 500;
   border-radius: 8px;
-  color: white;
+  color: #333646;
 }
 
 #about .download img {
@@ -99,6 +99,11 @@ nav .navbar-brand {
   cursor: pointer;
 }
 
+#skill .container {
+  background-color: #252734;
+  border-radius: 10px;
+}
+
 #skill .skill-box {
   cursor: pointer;
 }
@@ -108,10 +113,14 @@ nav .navbar-brand {
 }
 
 #skill .content .item {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #eaeaeb;
 }
 
 @media (min-width: 992px) {
+  section .container {
+    padding: 15px 100px;
+  }
+
   nav .container {
     padding: 0px 100px;
   }
@@ -121,7 +130,7 @@ nav .navbar-brand {
   }
 
   .nav-link:hover {
-    color: #fff !important;
+    color: #eaeaeb !important;
   }
 
   nav .active::after {
@@ -129,7 +138,7 @@ nav .navbar-brand {
     content: "";
     display: block;
     /* width: 50%; */
-    /* border-bottom: 3px solid #fff; */
+    /* border-bottom: 3px solid #eaeaeb; */
     border-radius: 100px;
     padding-bottom: 5px;
     margin-bottom: -8px;
@@ -139,9 +148,13 @@ nav .navbar-brand {
     content: "";
     display: block;
     width: 50%;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #eaeaeb;
     margin: auto;
     padding-bottom: 5px;
     margin-bottom: -8px;
+  }
+
+  #about .photo {
+    width: 100%;
   }
 }
