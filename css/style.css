@@ -6,7 +6,8 @@ main {
 }
 
 section {
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  padding: 100px 20px 0px;
 }
 
 section .title {
@@ -28,8 +29,8 @@ section .container::after {
   border-bottom: 1px solid red;
 } */
 
-h1.title {
-  margin-bottom: 30px;
+section .title {
+  font-weight: 500;
 }
 
 .navbar {
@@ -101,20 +102,36 @@ nav .navbar-brand {
 
 #skill .container {
   background-color: #252734;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0px 8px 0.1px #000;
 }
 
 #skill .skill-box {
   cursor: pointer;
+  background-color: #333646;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 #skill .skill-box:hover {
-  transform: scale(1.1);
+  /* transform: scale(1); */
+  background-color: rgba(234, 234, 235, 0.2);
 }
 
 #skill .content .item {
   border-bottom: 2px solid #eaeaeb;
 }
+
+#skill .content span {
+  text-align: center;
+  /* border-bottom: 0.2px solid #eaeaeb; */
+}
+
+/* @media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+} */
 
 @media (min-width: 992px) {
   section .container {
