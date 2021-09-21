@@ -1,7 +1,7 @@
 const sections = document.querySelectorAll("section");
 
 const options = {
-  threshold: 1,
+  threshold: 0.7,
 };
 
 let observer = new IntersectionObserver(navCheck, options);
