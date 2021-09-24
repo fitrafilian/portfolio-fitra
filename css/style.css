@@ -69,7 +69,7 @@ nav .navbar-brand {
 #about .download {
   padding: 10px;
   background-color: #eaeaeb;
-  width: 160px;
+  width: 180px;
   font-weight: 500;
   border-radius: 8px;
   color: #333646;
@@ -116,7 +116,7 @@ nav .navbar-brand {
   /* border-radius: 10px; */
   background-color: #252734;
   box-shadow: 0 0px 6px 0.1px #000;
-  height: 250px;
+  height: 100%;
   margin-bottom: 30px;
 }
 
